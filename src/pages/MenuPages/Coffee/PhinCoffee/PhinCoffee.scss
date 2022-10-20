@@ -1,0 +1,97 @@
+.wrapPhinCoffee {
+}
+
+.innerPhinCoffee {
+    width: 1080px;
+    margin: 0 auto;
+    height: 290vh;
+    padding: 50px 0;
+}
+.phinCoffeeElement {
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 800px;
+    border-bottom: solid 1px #eeeeee;
+}
+.contentLeft {
+    margin: 25px 0;
+}
+
+.buttonPhinCoffee {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.buttonPhinCoffee button {
+    padding: 12px 15px;
+    margin-right: 4px;
+    border: none;
+    transition: all 0.3s linear;
+
+    &:hover {
+        background-color: var(--primary);
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+}
+
+.cardPhinCoffee {
+    width: 800px;
+    display: flex;
+    gap: 10px;
+    // overflow: auto;
+    // overflow-y: hidden;
+    // overflow-x: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-bottom: 30px;
+}
+
+.cardPhinElement {
+    text-align: center;
+}
+
+.cardImg {
+    width: 260px;
+    height: 280px;
+    padding: 50px;
+    background-size: center;
+    background-position: cover;
+    position: relative;
+    border: solid 1px #eeeeee;
+}
+
+.cardPhinCoffee img {
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s linear;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 15%;
+    top: 15%;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+}
+
+.cardDrink {
+    margin: 10px 0;
+}
+
+.cardDrink a {
+    color: var(--brown);
+    font-size: 22px;
+    font-weight: 1000;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+        transition: all 0.3s linear;
+    }
+}

@@ -1,0 +1,75 @@
+.aboutWrap {
+    display: block;
+}
+
+.aboutElement {
+    width: 100%;
+    height: 410px;
+    display: flex;
+    position: relative;
+}
+
+.aboutImg {
+    width: 50%;
+    height: 100%;
+}
+
+.aboutImg img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.aboutInner {
+    width: 1080px;
+    background: transparent;
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+    float: right;
+}
+
+.aboutBlog {
+    width: 50%;
+    background: transparent;
+}
+
+.titleAbout {
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--brown);
+    font-weight: 600;
+}
+
+.salutationAbout {
+    margin: 10px 0;
+    font-weight: 700;
+}
+.contentAbout {
+    margin: 20px 0;
+}
+
+.aboutBlog button {
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 7px 63px;
+    transition: all 0.3s linear;
+    background: transparent;
+
+    &:hover {
+        cursor: pointer;
+        background-color: red;
+        color: var(--primary);
+        transition: all 0.3s linear;
+    }
+}
+.aboutBlog .button1 {
+    background-color: red;
+}

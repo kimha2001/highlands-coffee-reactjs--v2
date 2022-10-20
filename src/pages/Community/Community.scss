@@ -1,0 +1,30 @@
+.innerCommunity {
+    width: 1080px;
+    margin: 25px auto;
+    height: 100vh;
+    }
+.titleCommunity {
+    height: 55px;
+    margin-bottom: 18px;
+    font-size: 45px;
+    align-items: center;
+    color: var(--brown);
+}
+
+.rowCommunity {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+.cardCommunity {
+    width: 320px;
+}
+
+.cardCommunity img {
+    background-image: cover;
+    width: 320px;
+}
+
+.card-title {
+}

@@ -1,0 +1,103 @@
+.wrapFreeze {
+    background-color: #fbedd7;
+    height: 1100px;
+}
+
+.innerFreeze {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.freezeElement {
+    margin-bottom: 50px;
+}
+
+.title1 {
+    color: var(--brown);
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.contentRow {
+    display: flex;
+    justify-content: space-between;
+}
+.contentLeft {
+    width: 700px;
+}
+.contentLeft img {
+    width: 100%;
+    margin: 13px 0;
+}
+
+.content1 {
+    color: var(--brown);
+}
+
+.contentLeft button {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b22830;
+    border: solid 1px #b22830;
+    padding: 7px 70px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: transparent;
+    margin: 30px 0;
+    transition: all 0.3s linear;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--primary);
+        color: var(--white);
+        transition: all 0.3s linear;
+    }
+}
+
+.contentRight {
+    display: block;
+    width: 370px;
+    padding: 0 15px;
+}
+
+.r1 {
+    display: flex;
+}
+
+.contentRight img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s linear;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s linear;
+    }
+}
+
+.r2 {
+    display: block;
+}
+
+.title2 {
+    color: var(--brown);
+    font-size: 22px;
+    font-weight: 1000;
+    transition: all 0.3s linear;
+
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+        transition: all 0.3s linear;
+    }
+}
+
+.content2 {
+    margin: 18px 0;
+}
+
+.refer {
+    width: 100%;
+    height: 650px;
+}

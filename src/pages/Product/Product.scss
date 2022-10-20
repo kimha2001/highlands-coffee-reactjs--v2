@@ -1,0 +1,145 @@
+.innerProduct {
+    width: 1080px;
+    margin: 30px auto;
+    height: 200vh;
+}
+
+.topProduct {
+    height: 480px;
+    border-bottom: #eeeeee solid 1px;
+}
+
+.titleProduct {
+    color: var(--brown);
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.LeftProduct {
+    width: 800px;
+}
+
+.imgStarProduct {
+    border: #eeeeee solid 1px;
+}
+.imgStarProduct img {
+    width: 350px;
+}
+
+.bagProduct {
+    display: flex;
+}
+
+.textProduct {
+    margin-bottom: 18px;
+    color: var(--brown);
+}
+
+.contentProduct {
+    padding-left: 20px;
+}
+
+.contentProduct img {
+    width: 350px;
+    height: 90px;
+    &:hover {
+        cursor: pointer;
+    }
+    margin-left: 30px;
+}
+
+.sizeProduct {
+    margin: 15px 0;
+}
+
+.sizeProduct button {
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: var(--white);
+    border: #eeeeee 1px solid;
+    transition: all 0.3s linear;
+
+    &:hover {
+        cursor: pointer;
+        border: var(--primary) 1px solid;
+        color: var(--primary);
+        transition: all 0.3s linear;
+    }
+}
+
+.buttonScroll {
+    z-index: 10;
+    float: right;
+    margin-top: 45px;
+}
+
+.buttonScroll button {
+    padding: 14px;
+    border: none;
+    margin-right: 2px;
+    transition: all 0.3s linear;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--primary);
+        color: var(--white);
+        transition: all 0.3s linear;
+    }
+}
+
+.botProduct {
+    width: 800px;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin: 40px 0;
+}
+
+.cardProduct {
+    text-align: center;
+}
+
+.cardImgProduct {
+    width: 260px;
+    height: 280px;
+    padding: 50px;
+    background-size: center;
+    background-position: cover;
+    position: relative;
+    border: solid 1px #eeeeee;
+}
+
+.cardImgProduct img {
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s linear;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 15%;
+    top: 15%;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+}
+
+.nameDrink {
+    margin: 10px 0;
+}
+
+.nameDrink a {
+    color: var(--brown);
+    font-size: 22px;
+    font-weight: 1000;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+        transition: all 0.3s linear;
+    }
+}

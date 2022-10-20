@@ -1,0 +1,42 @@
+.News {
+    // padding: 42px 0;
+    margin: 50px auto;
+    width: 1080px;
+}
+
+.News1 {
+    height: 55px;
+    margin-bottom: 18px;
+    font-size: 45px;
+    align-items: center;
+    color: var(--brown);
+}
+
+.container {
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.cardNews {
+    margin-right: 10px;
+    width: 320px;
+}
+
+.card-img-top {
+    width: 100%;
+    // transition: transform;
+}
+
+.card-title {
+    margin: 5px 0;
+    &:hover {
+        color: red;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+}

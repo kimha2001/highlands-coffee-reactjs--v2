@@ -1,0 +1,182 @@
+.header-wrap {
+    width: 100%;
+    background-color: var(--primary);
+    // position: relative;
+}
+
+.inner {
+    height: 100%;
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 110px;
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.navBar {
+    width: 100%;
+}
+.topNav {
+}
+
+.rightNav {
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.search {
+}
+
+.search input {
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: none;
+    outline: none;
+}
+.search-btn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.search-icon {
+    color: #808080;
+}
+
+.language ul {
+    list-style-type: none;
+    padding: 2.5px;
+}
+.language li {
+    float: left;
+    margin-left: 7.5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.botNav {
+    margin-top: 15px;
+}
+.botNav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.botNav li {
+    &:hover .menuMega {
+        display: flex;
+    }
+}
+
+.botNav li a {
+    padding: 10px 17px;
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+    position: relative;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--brown);
+        transition: all 0.5s linear;
+    }
+}
+
+.botNav a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.menuMega {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: var(--brown);
+    padding: 15px 0;
+    z-index: 100;
+    transition: 1s linear !important;
+}
+
+.menuGrid {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.menuGrid {
+    display: flex;
+}
+.col1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.col1 ul {
+    display: block;
+}
+
+.titleCol1 a {
+    color: var(--yellow);
+    font-size: 20px !important;
+    transition: all 0.3s linear !important;
+    &:hover {
+        color: var(--white);
+        transition: all 0.3s linear !important;
+    }
+}
+
+.col1 ul li a {
+    font-size: 15px;
+}
+.col1 ul li {
+    text-align: center;
+    font-size: 5px;
+}
+
+.col2_banner {
+    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+    height: 250px;
+    width: 200px;
+}
+
+.txt {
+    margin-bottom: 10px;
+}
+
+.txt a {
+    font-size: 30px !important;
+    margin-inline: 1px;
+    display: block;
+    font-weight: bold;
+    color: var(--yellow);
+    padding-right: 20%;
+    transition: all 0.5s linear;
+    &:hover {
+        color: var(--white);
+        background-color: transparent !important;
+        transition: all 0.3s linear !important;
+    }
+}
+
+.col2_banner img {
+    width: 170px;
+    margin-left: 15px;
+}

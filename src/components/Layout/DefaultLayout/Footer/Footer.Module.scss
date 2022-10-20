@@ -1,0 +1,48 @@
+.footerWrap {
+    height: 58px;
+    width: 100%;
+    background-color: var(--brown);
+}
+
+.inner {
+    height: 100%;
+    width: 1080px;
+    display: flex;
+    align-items: cet center;
+    margin: 0 auto;
+}
+
+.icon {
+    color: var(--white);
+    align-items: center;
+    margin-right: 15px;
+}
+
+.licence {
+    color: var(--white);
+    align-items: center;
+    margin-right: 15px;
+}
+
+.registerLicence {
+    color: var(--white);
+    align-items: center;
+    margin-right: 15px;
+
+    &:hover {
+        color: #f1bc7a;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+}
+
+.email {
+    color: var(--white);
+    align-items: center;
+    margin-right: 15px;
+    &:hover {
+        color: #f1bc7a;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+}

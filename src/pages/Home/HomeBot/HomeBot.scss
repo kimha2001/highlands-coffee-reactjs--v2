@@ -1,0 +1,154 @@
+.homeBotWrap {
+    height: 400px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+}
+
+.newAddress {
+    background: url('https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.newAddressContent {
+    display: block;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.newAddress h2 {
+    margin-left: 100px;
+    margin-top: 60px;
+    color: var(--white);
+}
+
+.newAddress h3 {
+    color: var(--white);
+    margin-top: 10px;
+
+    &:hover {
+        cursor: pointer;
+        color: #f1bc7a;
+        transition-duration: 0.3s;
+    }
+}
+
+.newAddress h4 {
+    color: var(--white);
+    margin-top: 10px;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        color: #f1bc7a;
+        transition-duration: 0.3s;
+    }
+}
+
+.news {
+    background: url('https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.newsWrap {
+    margin-left: 100px;
+    width: 485px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.headNews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsWrap h2 {
+    color: #333333;
+}
+
+.seeAll {
+    text-decoration: underline;
+    color: #000000;
+    font-size: 17px;
+    align-items: centered;
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+        transition-duration: 0.3s;
+    }
+}
+
+.listNews {
+    max-height: 256px;
+}
+
+.newsElement {
+    display: flex;
+    padding: 8px 0;
+}
+
+.news img {
+    width: 100px;
+    height: 70px;
+    transform: scale(1);
+    transition: transform;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform;
+        transition-duration: 1s;
+    }
+}
+
+.newsCaption {
+    margin-left: 15px;
+}
+
+.newsTitle {
+    margin-bottom: 10px;
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+        transition-duration: 0.3s;
+    }
+}
+
+.inputEmail {
+    margin-top: 12px;
+    display: flex;
+}
+.inputEmail input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.inputEmail button {
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: var(--brown);
+    align-items: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    line-height: 14px;
+    color: var(--white);
+    &:hover {
+        background-color: var(--primary);
+        transition-duration: 0.3s;
+    }
+}
+
+.icon {
+    margin-right: 6px;
+}
